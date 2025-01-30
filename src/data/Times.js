@@ -2,43 +2,43 @@ export const listaTimes = [
     {
         id: 1,
         nome: 'Programação',
-        corPrimaria: '#fde74c',
-        corSecundaria: '#57c5a0'
+        corPrimaria: '#47667b',
+        corSecundaria: '#a5c3a7'
     },
     {
         id: 2,
         nome: 'Front-End',
-        corPrimaria: '#82cffd',
-        corSecundaria: '#fde74c'
+        corPrimaria: '#ebb57f',
+        corSecundaria: '#eb9a7f'
     },
     {
         id: 3,
         nome: 'Data Science',
-        corPrimaria: '#a6d8f2',
-        corSecundaria: '#f99'
+        corPrimaria: '#b1ba8e',
+        corSecundaria: '#d4ddb1'
     },
     {
         id: 4,
         nome: 'Devops',
-        corPrimaria: '#fde74c',
-        corSecundaria: '#ff8f4e'
+        corPrimaria: '#d436a9',
+        corSecundaria: '#ffa2ff'
     },
     {
         id: 5,
         nome: 'UX e Design',
-        corPrimaria: '#db6ebc',
-        corSecundaria:'#16e3d0'
+        corPrimaria: '#007e99',
+        corSecundaria:'#16c7e3'
     },
     {
         id: 6,
         nome: 'Mobile',
-        corPrimaria: '#ffba08',
-        corSecundaria: '#cde316'
+        corPrimaria: '#8a4d53',
+        corSecundaria: '#f0aaaf'
     },
     {
         id: 7,
         nome: 'Inovação e Gestão',
-        corPrimaria: '#ff8811',
-        corSecundaria: '#a79bb7'
+        corPrimaria: '#728d8c',
+        corSecundaria: '#c4e3d3'
     },
 ];
