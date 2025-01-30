@@ -2,7 +2,7 @@ import './CampoTexto.css';
 
 const CampoTexto = (props) => {
 
-    const placeholder = `Digite o seu ${props.name}`;
+    const placeholder = props.name === 'imagem' ? 'Digite a URL da sua imagem' : `Digite o seu ${props.name}`;
     return (
         <div className="campo-texto">
             <label htmlFor="campo-texto">{props.name}:</label>

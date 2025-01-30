@@ -1,7 +1,7 @@
 import './ListaSuspensa.css';
 
 const ListaSuspensa = (props) => {
-    const placeholder = `Selecione o seu ${props.name}`;
+    const placeholder = `Selecione o seu time`;
 
     return (
       <div className="lista-suspensa">

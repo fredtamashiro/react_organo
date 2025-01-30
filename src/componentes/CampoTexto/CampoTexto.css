@@ -6,6 +6,7 @@
     display: block;
     margin-bottom: 8px;
     font-size:  24px;
+    text-transform: capitalize;
 }
 
 .campo-texto input {
