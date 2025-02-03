@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import CampoTexto from '../CampoTexto';
 import ListaSuspensa from '../ListaSuspensa';
 import Botao from '../Botao';
-import { listaTimes } from '../../data/Times';
+import useTimes from '../../data/Times';
 import './Formulario.css';
 
 const Formulario = (props) => {
+    const [listaTimes] = useTimes();
     const [formData, setFormData] = useState({
         nome: '',
         cargo: '',
@@ -24,6 +25,7 @@ const Formulario = (props) => {
     const aoSalvar = (event) => {
         event.preventDefault();
         props.aoColaboradorSalvo({
+            id: Date.now(),
             nome: formData.nome,
             cargo: formData.cargo,
             imagem: formData.imagem,
